@@ -26,8 +26,7 @@ This project focuses on analyzing customer profile for a financial institution.
 **Goal:** Take a deep look into customer overview
 
 (images/customer_overview.png)
-
-
+<img width="1597" height="910" alt="customer_overview" src="https://github.com/user-attachments/assets/33a2688f-ab14-4b26-98cf-b261dec648f6" />
 
 
 ### 2. Demographics
@@ -35,6 +34,7 @@ This project focuses on analyzing customer profile for a financial institution.
 **Goal:** Deep dive into the demographics of customers.
 
 (images/demographics.png)
+<img width="1598" height="909" alt="demographics" src="https://github.com/user-attachments/assets/b1199f0a-e68d-44a7-aa6d-f9294aa852e2" />
 
 
 
@@ -44,6 +44,7 @@ This project focuses on analyzing customer profile for a financial institution.
 **Goal:** Analyze Income and which factors have impact on it.
 
 (images/financial_data.png)
+<img width="1596" height="908" alt="income_analysis" src="https://github.com/user-attachments/assets/7ed49100-2155-4e65-b854-7216a6c17945" />
 
 
 
