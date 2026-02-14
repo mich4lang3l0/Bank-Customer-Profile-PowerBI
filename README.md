@@ -19,7 +19,7 @@ This project focuses on analyzing customer profile for a financial institution.
 
 **Goal:** Take a deep look into customer overview
 
-(images/customer_overview.png)
+
 <img width="1597" height="910" alt="customer_overview" src="https://github.com/user-attachments/assets/33a2688f-ab14-4b26-98cf-b261dec648f6" />
 
 
@@ -27,7 +27,7 @@ This project focuses on analyzing customer profile for a financial institution.
 
 **Goal:** Deep dive into the demographics of customers.
 
-(images/demographics.png)
+
 <img width="1598" height="909" alt="demographics" src="https://github.com/user-attachments/assets/b1199f0a-e68d-44a7-aa6d-f9294aa852e2" />
 
 
@@ -37,16 +37,13 @@ This project focuses on analyzing customer profile for a financial institution.
 
 **Goal:** Analyze Income and which factors have impact on it.
 
-(images/financial_data.png)
+
 <img width="1596" height="908" alt="income_analysis" src="https://github.com/user-attachments/assets/7ed49100-2155-4e65-b854-7216a6c17945" />
 
 
 
 
 ## 🛠️ Process & Technical Details
-
-
-
 ### 1. Data Transformation (Power Query)
 
 - **Data Standardization:** Corrected data types for proper calculation.
@@ -55,7 +52,7 @@ This project focuses on analyzing customer profile for a financial institution.
 
 
 ### 2. Data Modeling & DAX Measures
-- Created complex DAX measures, including:
+- Created essential DAX measures, including:
   - **Average Customer Age** = `AVERAGE('Credit_cards'[Age])`
   - **Total number of Customers** `COUNT('Credit_cards'[ID])`
   - **Average Income for Customer** `AVERAGE(Credit_cards[Total_income])`
@@ -72,7 +69,7 @@ Based on the analysis, the following trends were observed:
 
 ## 📂 Files in this Repository
 
-- `Credit_cards_raport.pbix` - The Power BI source file.
-- `Credit_cards_raport.pdf` - Full static export of the report.
+- `Credit_cards_report.pbix` - The Power BI source file.
+- `Credit_cards_report.pdf` - Full static export of the report.
 
 Created by Michał Węglorz
