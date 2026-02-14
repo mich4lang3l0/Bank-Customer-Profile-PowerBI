@@ -10,17 +10,11 @@ This project focuses on analyzing customer profile for a financial institution.
 ### 🔹 Key Metrics
 
 - **Dataset:** Over 10 thousand of customer records (Anonymized).
-
 - **Tool:** Power BI (Data Cleaning, Modeling, DAX, Visualization).
 
 
 
 ## 📊 Dashboard Gallery
-
-*Since the live report cannot be published due to administrative restrictions, below are the high-resolution previews of the dashboard pages.*
-
-
-
 ### 1. Executive Summary
 
 **Goal:** Take a deep look into customer overview
@@ -61,15 +55,9 @@ This project focuses on analyzing customer profile for a financial institution.
 
 
 ### 2. Data Modeling & DAX Measures
-
-- Built a Star Schema data model.
-
 - Created complex DAX measures, including:
-
   - **Average Customer Age** = `AVERAGE('Credit_cards'[Age])`
-
   - **Total number of Customers** `COUNT('Credit_cards'[ID])`
-
   - **Average Income for Customer** `AVERAGE(Credit_cards[Total_income])`
 
 
@@ -78,16 +66,13 @@ This project focuses on analyzing customer profile for a financial institution.
 
 Based on the analysis, the following trends were observed:
 
-1.  **Education vs. Income:** A strong positive correlation exists between education level and average income.
+1.  **Education vs. Income:** A strong positive correlation exists between education level and average income. But we have only 6 records about `Higher degree` so the result of analysis may not be reliable
 2.  **Age Structure:** The majority of customers fall into the middle-aged category (40-50 years old), representing the most financially active segment.
 3.  **Marital Status:** Married customers constitute the largest segment of the bank's portfolio.
-
-
 
 ## 📂 Files in this Repository
 
 - `Credit_cards_raport.pbix` - The Power BI source file.
-
 - `Credit_cards_raport.pdf` - Full static export of the report.
 
 Created by Michał Węglorz
